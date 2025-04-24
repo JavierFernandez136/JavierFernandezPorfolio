@@ -4,7 +4,7 @@ export const projects = [
     description: "Proyecto de Langin Page realizada para empresa de marketing digital",
     image: '/images/TronLogo.jpg',
     tags: ['Wordpress', 'PHP', 'Elementor pro'],
-    source: '#',
+    source: 'https://tronestudio.com',
     visit: 'https://tronestudio.com',
     id: 0,
   },
