@@ -34,8 +34,12 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 1 / 3 / 6;
+    justify-content: center;
+    gap: 1rem;
   }
 `;
 export const Div3 = styled.div`
@@ -111,7 +115,6 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
 // Social Icons 
 
 export const SocialIcons = styled.a`
@@ -123,6 +126,5 @@ border-radius: 50px;
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
 `

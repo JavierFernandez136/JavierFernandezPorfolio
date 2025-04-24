@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Wordpress Landing Page EstudioTron',
+    description: "Proyecto de Langin Page realizada para empresa de marketing digital",
+    image: '/images/TronLogo.jpg',
+    tags: ['Wordpress', 'PHP', 'Elementor pro'],
+    source: '#',
+    visit: 'https://tronestudio.com',
+    id: 0,
+  },
+  {
     title: 'Potion Shop Challenge',
     description: "Desarrollé un marketplace interactivo donde un héroe puede comprar pociones. La aplicación permite gestionar un carrito limitado por gemas, mostrando en tiempo real las gemas restantes y los productos seleccionados, utilizando Context para el estado global. Construido con TypeScript y JavaScript, implementa integración con un backend para obtener productos y procesar compras. ",
       image: '/images/CarritoCompras.png',
       tags: ['TypeScript', 'JavaScript'],
     source: 'https://carrito-challenge.vercel.app/',
     visit: 'https://github.com/JavierFernandez136/carrito-challenge',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Cocktail-Recipe-App',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['React', 'JavaScript','MUI Material'],
     source: 'https://cocktail-recipe-app-ten.vercel.app/',
     visit: 'https://github.com/JavierFernandez136/Cocktail-Recipe-App',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Responsive Landing Page',
@@ -24,17 +33,9 @@ export const projects = [
       tags: ['CSS', 'HTML'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 2,
-  },
-  {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
     id: 3,
   },
+ 
 ];
 
 export const TimeLineData = [
